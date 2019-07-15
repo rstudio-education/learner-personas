@@ -4,12 +4,18 @@
     <link href="{{ '/assets/site.css' | relative_url }}" rel="stylesheet" type="text/css">
   </head>
   <body>
+    <header>
+      <a href="http://rstudio.com"><img class="header" src="{{ '/favicon.ico' | relative_url }}" alt = "RStudio" width="30" /></a>
+      {% unless page.root %}<a href="{{ '/' | relative_url }}">{% endunless %}Home{% unless page.root %}</a>{% endunless %}
+      -
+      <a href="{{ '/license/' | relative_url }}">License</a>
+      -
+      <a href="{{ '/conduct/' | relative_url }}">Code of Conduct</a>
+    </header>
+    <br/>
     <h1>{{page.title}}</h1>
     {% if page.image %}<p><img class="title" src="../assets/{{page.image}}" alt="{{page.title}}" width="100" /></p>{% endif %}
 {{content}}
-    {% unless page.root %}
-    <p><em><a href="{{ '/' | relative_url }}">…home</a></em></p>
-    {% endunless %}
     <footer>
       <p><a href="http://rstudio.com"><img src="{{ '/assets/rstudio.png' | relative_url }}" alt = "RStudio" width="150" /></a></p>
     </footer>

@@ -5,13 +5,22 @@ body {
   line-height: 120%;
 }
 
+header {
+    text-align: right;
+}
+
 footer {
   text-align: center;
 }
 
+img.header {
+  float: left;
+}
+
 img.title {
   float: left;
-  padding-right: 1em;
+  padding-right: 3em;
+  padding-bottom: 1em;
 }
 
 td {
