@@ -1,6 +1,8 @@
 body {
+  padding: 1em;
   font-family: sans-serif;
   width: 60em;
+  line-height: 120%;
 }
 
 footer {
