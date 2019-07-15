@@ -2,6 +2,7 @@
 layout: page
 permalink: "/mshelle-manager/"
 title: "M'shelle Manager"
+image: "mshelle-manager.png"
 ---
 
 1. A programmer who moved into customer support and then into product

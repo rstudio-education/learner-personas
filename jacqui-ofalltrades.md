@@ -2,6 +2,7 @@
 layout: page
 permalink: "/jacqui-ofalltrades/"
 title: "Jacqui Ofalltrades"
+image: "jacqui-ofalltrades.png"
 ---
 
 1. Jacqui works for a three-person consulting company that does everything from

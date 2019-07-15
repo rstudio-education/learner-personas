@@ -4,11 +4,26 @@
     <style>
       body {
         font-family: sans-serif;
+        width: 60em;
+      }
+      footer {
+        text-align: center;
+      }
+      img.title {
+        float: left;
+        padding-right: 1em;
       }
     </style>
   </head>
   <body>
     <h1>{{page.title}}</h1>
+    {% if page.image %}<p><img class="title" src="../assets/{{page.image}}" alt="{{page.title}}" width="100" /></p>{% endif %}
 {{content}}
+    {% unless page.root %}
+    <p><em><a href="{{ '/' | relative_url }}">…home</a></em></p>
+    {% endunless %}
+    <footer>
+      <p><a href="http://rstudio.com"><img src="{{ '/assets/rstudio.png' | relative_url }}" alt = "RStudio" width="150" /></a></p>
+    </footer>
   </body>
 </html>

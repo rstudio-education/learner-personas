@@ -2,6 +2,7 @@
 layout: page
 permalink: "/celine-certified/"
 title: "Celine Certified"
+image: "celine-certified.png"
 ---
 
 1. Celine has an MBA in finance and is now a certified RStudio instructor

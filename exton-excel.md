@@ -2,6 +2,7 @@
 layout: page
 permalink: "/exton-excel/"
 title: "Exton Excel"
+image: "exton-excel.png"
 ---
 
 1. Exton taught business at a community college for several years, and now does

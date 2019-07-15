@@ -2,6 +2,7 @@
 layout: page
 permalink: "/"
 title: "RStudio Learner Personas"
+root: true
 ---
 
 A [learner persona][personas] is a short description of a typical learner. By

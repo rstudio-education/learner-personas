@@ -2,6 +2,7 @@
 layout: page
 permalink: "/toshi-techsupport/"
 title: "Toshi Techsupport"
+image: "toshi-techsupport.png"
 ---
 
 1. Toshi does internal tech support in a company with 500 staff. While others on

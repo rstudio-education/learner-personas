@@ -2,6 +2,7 @@
 layout: page
 permalink: "/larry-legacy/"
 title: "Larry Legacy"
+image: "larry-legacy.png"
 ---
 
 1. Larry got a job with a pharmaceutical company the day after he graduated and

@@ -2,6 +2,7 @@
 layout: page
 permalink: "/nang-newbie/"
 title: "Nang Newbie"
+image: "nang-newbie.png"
 ---
 
 1. Nang is 18 years old and in the first year of an undergraduate degree in

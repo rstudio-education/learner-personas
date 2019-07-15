@@ -2,6 +2,7 @@
 layout: page
 permalink: "/katrin-keener/"
 title: "Katrin Keener"
+image: "katrin-keener.png"
 ---
 
 1. Katrin did a Master's in neuropsychology and a 12-week bootcamp with Insight

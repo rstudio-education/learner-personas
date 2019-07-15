@@ -2,6 +2,7 @@
 layout: page
 permalink: "/anya-academic/"
 title: "Anya Academic"
+image: "anya-academic.png"
 ---
 
 1. Anya, a professor of neuropsychology, studies color perception in
