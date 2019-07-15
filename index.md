@@ -21,29 +21,53 @@ that the domains in these personas (such as pharmacy or event management) are
 meant to be placeholders: swap in another domain such as finance or logistics
 as desired.
 
--   [Anya Academic](./anya-academic/): a professor who needs training for her
-    research and to pass on to students.
+<table>
 
--   [Celine Certified](./celine-certified/): a certified RStudio instructor.
+  <tr>
+    <td><a href="./anya-academic/">Anya Academic</a></td>
+    <td>A professor who needs training for her research and to pass on to students.</td>
+  </tr>
 
--   [Exton Excel](./exton-excel/): a proficient Excel user working in industry
-    who wants to switch to R.
+  <tr>
+    <td><a href="./celine-certified/">Celine Certified</a></td>
+    <td>A certified RStudio instructor.</td>
+  </tr>
 
--   [Jacqui Ofalltrades](./jacqui-ofalltrades/): a data science generalist at
-    a small consulting company.
+  <tr>
+    <td><a href="./exton-excel/">Exton Excel</a></td>
+    <td>A proficient Excel user working in industry who wants to switch to R.</td>
+  </tr>
 
--   [Katrin Keener](./katrin-keener/): an R enthusiast.
+  <tr>
+    <td><a href="./jacqui-ofalltrades/">Jacqui Ofalltrades</a></td>
+    <td>A data science generalist at a small consulting company.</td>
+  </tr>
 
--   [Larry Legacy](./larry-legacy/): a reluctant learner who would really rather
-    just keep using the tools he knows.
+  <tr>
+    <td><a href="./katrin-keener/">Katrin Keener</a></td>
+    <td>An R enthusiast.</td>
+  </tr> 
 
--   [M'shelle Manager](./mshelle-manager/): an ex-programmer who now leads a team
-    and needs to make decisions about tool adoption and training.
+  <tr>
+    <td><a href="./larry-legacy/">Larry Legacy</a></td>
+    <td>A reluctant learner who would really rather just keep using the tools he knows.</td>
+  </tr>
 
--   [Nang Newbie](./nang-newbie/): an undergraduate student without statistical
-    knowledge, programming skills, and real-world experience.
+  <tr>
+    <td><a href="./mshelle-manager/">M'shelle Manager</a></td>
+    <td>An ex-programmer who now leads a team and needs to make decisions about tool adoption and training.</td>
+  </tr> 
 
--   [Toshi Techsupport](./toshi-techsupport/): a sys admin who has to support
-    data scientists.
+  <tr>
+    <td><a href="./nang-newbie/">Nang Newbie</a></td>
+    <td>An undergraduate student without statistical knowledge, programming skills, and real-world experience.</td>
+  </tr> 
+
+  <tr>
+    <td><a href="./toshi-techsupport/">Toshi Techsupport</a></td>
+    <td>A sys admin who has to support data scientists.</td>
+  </tr>
+
+</table>
 
 [personas]: http://teachtogether.tech/#s:process-personas
