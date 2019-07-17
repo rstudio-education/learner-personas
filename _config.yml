@@ -6,6 +6,7 @@ domain: "https://rstudio-education.github.io/learner-personas/"
 repo: "https://github.com/rstudio-education/learner-personas/"
 logo: "/favicon.ico"
 repository: <USERNAME>/<PROJECT>
+
 menu:
 - name: "Home"
   link: "/"
@@ -13,3 +14,23 @@ menu:
   link: "/license/"
 - name: "Code of Conduct"
   link: "/conduct/"
+
+more:
+- name: "Anya Academic"
+  link: "/anya-academic/"
+- name: "Celine Certified"
+  link: "/celine-certified/"
+- name: "Exton Excel"
+  link: "/exton-excel/"
+- name: "Jacqui Ofalltrades"
+  link: "/jacqui-ofalltrades/"
+- name: "Katrin Keener"
+  link: "/katrin-keener/"
+- name: "Larry Legacy"
+  link: "/larry-legacy/"
+- name: "M'shelle Manager"
+  link: "/mshelle-manager/"
+- name: "Nang Newbie"
+  link: "/nang-newbie/"
+- name: "Toshi Techsupport"
+  link: "/toshi-techsupport/"

@@ -1,9 +1,13 @@
+/* General */
+
 body {
   padding: 1em;
   font-family: sans-serif;
   width: 60em;
   line-height: 120%;
 }
+
+/* Header */
 
 header {
   padding-bottom: 0.5em;
@@ -25,15 +29,42 @@ header img {
   vertical-align: middle;
 }
 
+/* Dropdown menu */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 2px 8px 16px 2px rgba(0,0,0,0.2);
+  padding: 8px;
+  z-index: 1;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Footer */
+
 footer {
   text-align: center;
 }
+
+/* Content */
 
 img.title {
   float: left;
   padding-right: 3em;
   padding-bottom: 1em;
 }
+
+/* Tables */
 
 th {
   text-align: left;
