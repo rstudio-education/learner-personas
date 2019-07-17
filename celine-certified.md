@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: persona
 permalink: "/celine-certified/"
 title: "Celine Certified"
 image: "celine-certified.png"

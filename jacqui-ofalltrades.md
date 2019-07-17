@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: persona
 permalink: "/jacqui-ofalltrades/"
 title: "Jacqui Ofalltrades"
 image: "jacqui-ofalltrades.png"

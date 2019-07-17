@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: persona
 permalink: "/toshi-techsupport/"
 title: "Toshi Techsupport"
 image: "toshi-techsupport.png"

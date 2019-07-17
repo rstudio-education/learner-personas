@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: persona
 permalink: "/larry-legacy/"
 title: "Larry Legacy"
 image: "larry-legacy.png"

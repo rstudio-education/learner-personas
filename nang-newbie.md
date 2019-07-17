@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: persona
 permalink: "/nang-newbie/"
 title: "Nang Newbie"
 image: "nang-newbie.png"

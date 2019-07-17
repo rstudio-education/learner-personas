@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: persona
 permalink: "/exton-excel/"
 title: "Exton Excel"
 image: "exton-excel.png"

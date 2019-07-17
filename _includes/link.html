@@ -1,0 +1,1 @@
+{% unless include.link == include.permalink %}<a href="{{ include.link | relative_url }}">{% endunless %}{{ include.text }}{% unless include.link == include.permalink %}</a>{% endunless %}

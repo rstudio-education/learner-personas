@@ -5,19 +5,24 @@
   </head>
   <body>
     <header>
-      <a href="http://rstudio.com"><img class="header" src="{{ '/favicon.ico' | relative_url }}" alt = "RStudio" width="30" /></a>
-      {% unless page.root %}<a href="{{ '/' | relative_url }}">{% endunless %}Home{% unless page.root %}</a>{% endunless %}
-      -
-      <a href="{{ '/license/' | relative_url }}">License</a>
-      -
-      <a href="{{ '/conduct/' | relative_url }}">Code of Conduct</a>
+      <div class="left">
+        <a href="{{ site.domain }}"><img src="{{ site.logo | relative_url }}" alt = "{{ site.title }}" width="30" /></a>
+        {% unless page.permalink == '/' %}{{ site.title }}{% endunless %}
+      </div>
+      <div class="right">
+        {% for item in site.menu %}
+        {% include link.html text=item.name link=item.link permalink=page.permalink %}
+        {% unless forloop.last %} - {% endunless %}
+        {% endfor %}
+      </div>
     </header>
     <br/>
     <h1>{{page.title}}</h1>
-    {% if page.image %}<p><img class="title" src="../assets/{{page.image}}" alt="{{page.title}}" width="100" /></p>{% endif %}
 {{content}}
     <footer>
-      <p><a href="http://rstudio.com"><img src="{{ '/assets/rstudio.png' | relative_url }}" alt = "RStudio" width="150" /></a></p>
+      <hr/>
+      <p>© {{ site.year }} {{ site.author }}</p>
+      <p><a href="{{ '/license/' | relative_url }}"><img src="{{ '/assets/cc-by.svg' | relative_url }}" alt="CC-BY" /></a></p>
     </footer>
   </body>
 </html>

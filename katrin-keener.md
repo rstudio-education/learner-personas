@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: persona
 permalink: "/katrin-keener/"
 title: "Katrin Keener"
 image: "katrin-keener.png"

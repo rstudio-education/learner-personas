@@ -1,6 +1,15 @@
 title: "RStudio Learner Personas"
 author: "RStudio Education Team"
+year: 2019
 email: "greg.wilson@rstudio.com"
 domain: "https://rstudio-education.github.io/learner-personas/"
 repo: "https://github.com/rstudio-education/learner-personas/"
+logo: "/favicon.ico"
 repository: <USERNAME>/<PROJECT>
+menu:
+- name: "Home"
+  link: "/"
+- name: "License"
+  link: "/license/"
+- name: "Code of Conduct"
+  link: "/conduct/"

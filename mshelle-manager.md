@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: persona
 permalink: "/mshelle-manager/"
 title: "M'shelle Manager"
 image: "mshelle-manager.png"

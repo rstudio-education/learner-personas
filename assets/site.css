@@ -6,15 +6,27 @@ body {
 }
 
 header {
+  padding-bottom: 0.5em;
+}
+
+header div.left {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+header div.right {
+  float: right;
+  width: 50%;
   text-align: right;
+}
+
+header img {
+  vertical-align: middle;
 }
 
 footer {
   text-align: center;
-}
-
-img.header {
-  float: left;
 }
 
 img.title {
